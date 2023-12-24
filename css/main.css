@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;700;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +6,101 @@
 }
 
 body {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    position: absolute;
+    width: 100%;
+}
+.navbar{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav__list-item a {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* End of Header */
+
+
+/* Hero section */
+.hero {
     background: linear-gradient(287deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0.00) 100%), #CF0063;
 }
+
+.hero__section {
+    padding-top: 100px;
+    background-image: url(../images/strelkacha.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 30px center;
+}
+
+.bg__part {
+    padding-top: 177px;
+    padding-bottom: 277px;
+    background-image: url(../images/bg__hero.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: calc(50vw + 40px);
+}
+
+.hero__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__title {
+    padding-top: 20px;
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.hero__desc {
+    padding: 10px 0 25px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px; 
+}
+
+.btn__primary {
+    width: 170px;
+    padding: 20px 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 3px;
+    background: #FC0A7E;
+}
+
+
+
+/* End of Hero section */
