@@ -18,6 +18,24 @@ a {
     margin: 0 auto;
 }
 
+.btn__primary {
+    width: 170px;
+    padding: 20px 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 3px;
+    border: 1px solid #FC0A7E;
+    background: #FC0A7E;
+    transition: all 0.3s ease;
+}
+
+.btn__primary:hover {
+    background: transparent;
+}
+
 /* Header */
 
 header {
@@ -89,18 +107,44 @@ header {
     line-height: 44px; 
 }
 
-.btn__primary {
-    width: 170px;
-    padding: 20px 40px;
-    color: #FFF;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    border-radius: 3px;
-    background: #FC0A7E;
-}
-
-
 
 /* End of Hero section */
+
+/* Menu Section */
+
+.menu {
+    background: #1B1B1B;
+    padding: 80px 0 655px;
+    background-image: url(../images/bg__section2.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.menu__wrapper {
+    display: flex;
+    width: 700px;
+    padding: 20px 46px 55px 47px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu__title {
+    color: #A8A8A8;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.menu__desc {
+    color: #FFF;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+/* End of Menu Section */
