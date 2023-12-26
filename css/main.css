@@ -400,3 +400,73 @@ header {
 
 
 /* End of Download section */
+
+/* Footer */
+
+footer {
+    background: #1B1B1B;
+}
+
+.footer__title {
+    padding-top: 130px;
+    color: #FFF;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.footer__desc {
+    margin: 20px 0 40px;
+    color: #6B6B6B;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.subscribe {
+    padding-bottom: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe input{
+    padding: 21px 155px 21px 10px;
+    color: #1C1C1C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 3px 0px 0px 3px;
+    background: #FFF;
+    border: none;
+    outline: none;
+}
+
+.subscribe__btn {
+    border-radius: 0 3px 3px 0;
+    background: #FC0A7E;
+}
+
+.footer__logo {
+    text-align: center;
+}
+
+.footer__list {
+    padding: 30px 0 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__list-item a {
+    color: #6B6B6B;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+/* End of Footer */
