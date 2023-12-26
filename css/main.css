@@ -19,7 +19,7 @@ a {
 }
 
 .btn__primary {
-    width: 170px;
+    max-width: 170px;
     padding: 20px 40px;
     color: #FFF;
     text-align: center;
@@ -34,6 +34,25 @@ a {
 
 .btn__primary:hover {
     background: transparent;
+    /* box-shadow: 0 0 3px 2px #CF0063; */
+}
+
+.btn__light {
+    max-width: 170px;
+    padding: 20px 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 3px;
+    border: 1px solid #FC0A7E;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.btn__light:hover {
+    background: #FC0A7E;
 }
 
 /* Header */
@@ -60,6 +79,11 @@ header {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
+    transition: all 0.3s ease-in;
+}
+
+.nav__list-item a:hover {
+    color: #FC0A7E;
 }
 
 /* End of Header */
@@ -185,3 +209,194 @@ header {
 }
 
 /* End of Information section */
+
+/* Activity section */
+
+.activity__list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity__list-item h2 {
+    margin: 40px 0 17px;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.activity__stats-item p {
+    color: #6B6B6B;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.activity__stats {
+    list-style: none;
+    margin: 165px 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.activity__stats h2 {
+    color: #333;
+    text-align: center;
+    font-family: Gothic A1;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px; /* 152.542% */
+}
+
+.activity__stats-item p {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;  
+}
+
+/* End of Activity section */
+
+/* Hamburger section */
+
+.hambergur__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.hamburger__title {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hamburger__subtitle {
+    margin: 30px 0 22px;
+    max-width: 258px;
+    color: #000;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px; 
+}
+
+.hamburger__desc {
+    max-width: 330px;
+    color: #6B6B6B;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.hamburger__desc span {
+    text-decoration-line: underline;
+}
+/* End of Hamburger section */
+
+/* News section */
+
+.news__part {
+    text-align: center;
+}
+
+.news__part img{
+    margin-bottom: 60px;
+    
+}
+
+.news__part p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #6B6B6B;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.news__info {
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.news__info h3 {
+    color: #6B6B6B;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px; 
+}
+
+.line {
+    width: 30px;
+    height: 1px;
+    background: #D3D3D3;
+}
+
+.dots {
+    margin-top: 88px;
+    margin-bottom: 142px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.logos {
+   text-align: center;
+   margin-bottom: 118px;
+}
+
+.bg__phone {
+    height: 518px;
+    background-image: url(../images/bg_phone.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+/* End of News section */
+
+/* Download section */
+
+.download {
+    background: linear-gradient(287deg, #450E4B 0%, #6E28B1 24.48%, rgba(207, 0, 99, 0.00) 100%), #CF0063;
+    
+}
+
+.download__wrapper {
+    padding-top: 165px;
+    padding-bottom: 156px;
+    background-image: url(../images/tolqin.svg);
+
+}
+
+.download__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px; 
+}
+
+.buttons {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+/* End of Download section */
